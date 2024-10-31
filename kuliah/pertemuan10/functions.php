@@ -39,4 +39,7 @@ function tambah($data) {
    echo mysqli_error($conn);
    return mysqli_affected_rows($conn);
 }
+
+
+
 ?>
